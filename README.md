@@ -1,2 +1,0 @@
-# MauiTaskApp
-Personalized Task App
