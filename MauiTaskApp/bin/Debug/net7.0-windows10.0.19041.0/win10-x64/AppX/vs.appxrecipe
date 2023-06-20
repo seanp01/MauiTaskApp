@@ -29,13 +29,13 @@
     <AppXManifest Include="E:\GITHUB REPOS\MauiTaskApp\MauiTaskApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-06-19T21:05:02.034</Modified>
+      <Modified>2023-06-20T19:40:57.506</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\GITHUB REPOS\MauiTaskApp\MauiTaskApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-06-19T21:03:19.398</Modified>
+      <Modified>2023-06-20T19:34:55.918</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GITHUB REPOS\MauiTaskApp\MauiTaskApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiTaskApp.runtimeconfig.json">
       <PackagePath>MauiTaskApp.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GITHUB REPOS\MauiTaskApp\MauiTaskApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiTaskApp.dll">
       <PackagePath>MauiTaskApp.dll</PackagePath>
-      <Modified>2023-06-19T21:05:01.216</Modified>
+      <Modified>2023-06-20T19:40:56.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GITHUB REPOS\MauiTaskApp\MauiTaskApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiTaskApp.exe</PackagePath>
-      <Modified>2023-06-19T21:05:01.225</Modified>
+      <Modified>2023-06-20T19:40:56.689</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\parke\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.5\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -919,7 +919,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GITHUB REPOS\MauiTaskApp\MauiTaskApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiTaskApp.deps.json">
       <PackagePath>MauiTaskApp.deps.json</PackagePath>
-      <Modified>2023-06-19T21:05:01.956</Modified>
+      <Modified>2023-06-20T19:40:57.414</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

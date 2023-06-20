@@ -2,41 +2,53 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiTaskApp.MainPage"
-             Shell.NavBarIsVisible="false"
+             Shell.NavBarIsVisible="true"
              Background="Transparent"
              >
 
-    <Grid BackgroundColor="Transparent">
-        <Grid HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Transparent">
+    <Grid BackgroundColor="Transparent" >
+        <Grid HorizontalOptions="Fill" BackgroundColor="White">
             <Grid.Resources>
                 <ResourceDictionary>
                     <Color x:Key="SemiTransparentColor">#26FFFFFF</Color>
                 </ResourceDictionary>
             </Grid.Resources>
             <Grid.RowDefinitions>
-                <RowDefinition Height="20*"/>
+                <RowDefinition/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="20*"/>
-                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <StackLayout Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
-                <Frame WidthRequest="100" Margin="0" BackgroundColor="{StaticResource SemiTransparentColor}"/>
-                <Frame WidthRequest="80" Margin="-20,0,0,0" BackgroundColor="{StaticResource SemiTransparentColor}"/>
-                <Frame WidthRequest="60" Margin="-20,0,0,0" BackgroundColor="{StaticResource SemiTransparentColor}"/>
-                <Frame WidthRequest="40" Margin="-20,0,0,0" BackgroundColor="{StaticResource SemiTransparentColor}"/>
-                <Frame WidthRequest="20" Margin="-20,0,0,0" BackgroundColor="{StaticResource SemiTransparentColor}"/>
+            <BoxView Margin="0" Grid.Row="0" Grid.Column="0" />
+            <StackLayout Grid.Row="0" Grid.Column="0" VerticalOptions="CenterAndExpand" Margin="10">
+                <Label Text="Task Name" TextColor="Black"/>
+                <Entry Placeholder="Enter task name" TextColor="Black"/>
+                <Label Text="Priority Level" TextColor="Black"/>
+                <StackLayout Orientation="Horizontal">
+                    <Button Margin="0" Text="1" TextColor="Grey"/>
+                    <Button Margin="0" Text="2" TextColor="Grey"/>
+                    <Button Margin="0" Text="3" TextColor="Grey"/>
+                    <Button Margin="0" Text="4" TextColor="Grey"/>
+                    <Button Margin="0" Text="5" TextColor="Grey"/>
+                    <Button Margin="0" Text="6" TextColor="Grey"/>
+                    <Button Margin="0" Text="7" TextColor="Grey"/>
+                    <Button Margin="0" Text="8" TextColor="Grey"/>
+                </StackLayout>
+                <Entry Placeholder="Enter priority level" TextColor="Black"/>
+                <Label Text="Description" TextColor="Black"/>
+                <Entry Placeholder="Enter description" TextColor="Black"/>
+                <Label Text="Due Date" TextColor="Black"/>
+                <DatePicker TextColor="Black"/>
             </StackLayout>
-            <BoxView Grid.Row="0" Grid.Column="1"/>
-            <StackLayout Grid.Row="0" Grid.Column="1" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Margin="10">
-                <Label Text="Task Name" />
-                <Entry Placeholder="Enter task name" />
-                <Label Text="Priority Level" />
-                <Entry Placeholder="Enter priority level" />
-                <Label Text="Description" />
-                <Entry Placeholder="Enter description" />
-                <Label Text="Due Date" />
-                <DatePicker />
+            <StackLayout Grid.Row="0" Grid.Column="1" Orientation="Horizontal" Margin="10,0,0,0">
+                <Frame WidthRequest="150" Margin="0,0,0,0" Opacity=".2" BackgroundColor="Black"/>
+                <Frame WidthRequest="300" Margin="-150,0,0,0" Opacity=".2" BackgroundColor="Black"/>
+                <Frame WidthRequest="450" Margin="-300,0,0,0" Opacity=".2" BackgroundColor="Black"/>
+                <Frame WidthRequest="600" Margin="-450,0,0,0" Opacity=".2" BackgroundColor="Black"/>
+                <Frame WidthRequest="750" Margin="-600,0,0,0" Opacity=".2" BackgroundColor="Black"/>
+                <Frame WidthRequest="900" Margin="-750,0,0,0" Opacity=".2" BackgroundColor="Black"/>
             </StackLayout>
         </Grid>
     </Grid>

@@ -13,12 +13,17 @@ public partial class App : Application
     protected override Window CreateWindow(IActivationState activationState)
     {
         var window = base.CreateWindow(activationState);
-
-        const int newWidth = 800;
-        const int newHeight = 400;
+        
+        const double newWidth = 1400;
+        const double newHeight = 400;
 
         window.Width = newWidth;
         window.Height = newHeight;
+
+        window.MinimumHeight = newHeight;
+        window.MaximumHeight = newHeight;
+        window.MinimumWidth = newWidth;
+        window.MaximumWidth = newWidth;
 
         return window;
     }
