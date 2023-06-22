@@ -8,25 +8,9 @@ public partial class App : Application
     {
         InitializeComponent();
 
-        MainPage = new AppShell() { BackgroundColor = Colors.Transparent};
+        MainPage = new AppShell() { BackgroundColor = Colors.Transparent };
     }
-    protected override Window CreateWindow(IActivationState activationState)
-    {
-        var window = base.CreateWindow(activationState);
-        
-        const double newWidth = 1400;
-        const double newHeight = 400;
 
-        window.Width = newWidth;
-        window.Height = newHeight;
-
-        window.MinimumHeight = newHeight;
-        window.MaximumHeight = newHeight;
-        window.MinimumWidth = newWidth;
-        window.MaximumWidth = newWidth;
-
-        return window;
-    }
     protected override void OnStart()
     {
         base.OnStart();
